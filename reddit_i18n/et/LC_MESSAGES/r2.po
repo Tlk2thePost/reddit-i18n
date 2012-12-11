@@ -395,7 +395,7 @@ msgstr ""
 
 #: r2/controllers/errors.py:59
 msgid "you used a character here that we can't handle"
-msgstr ""
+msgstr "sa kasutasid sümbolit, mida me ei toeta"
 
 #: r2/controllers/errors.py:60
 #, python-format
@@ -509,11 +509,11 @@ msgstr ""
 
 #: r2/controllers/errors.py:88
 msgid "we need something here"
-msgstr ""
+msgstr "me vajame siia midagi"
 
 #: r2/controllers/errors.py:89
 msgid "we've never seen that code before"
-msgstr ""
+msgstr "me ei ole varem seda koodi näinud"
 
 #: r2/controllers/errors.py:90
 msgid "that code has already been claimed -- perhaps by you?"
@@ -521,23 +521,23 @@ msgstr ""
 
 #: r2/controllers/errors.py:91
 msgid "that reddit doesn't allow text posts"
-msgstr ""
+msgstr "see reddit ei luba tekstipostitusi"
 
 #: r2/controllers/errors.py:92
 msgid "that reddit only allows text posts"
-msgstr ""
+msgstr "see reddit lubab ainult tekstipostitusi"
 
 #: r2/controllers/errors.py:93
 msgid "that's a piece of history now; it's too late to reply to it"
-msgstr ""
+msgstr "see kuulub nüüd ajalukku; sellele vastamiseks on liiga hilja"
 
 #: r2/controllers/errors.py:94
 msgid "invalid css name"
-msgstr ""
+msgstr "vigane css nimi"
 
 #: r2/controllers/errors.py:95
 msgid "invalid css"
-msgstr ""
+msgstr "vigane css"
 
 #: r2/controllers/errors.py:96
 msgid "invalid revision ID"
@@ -598,19 +598,19 @@ msgstr ""
 
 #: r2/controllers/errors.py:111
 msgid "already added"
-msgstr ""
+msgstr "juba lisatud"
 
 #: r2/controllers/errors.py:112
 msgid "too many developers"
-msgstr ""
+msgstr "liiga palju arendajaid"
 
 #: r2/controllers/errors.py:113
 msgid "i don't believe you."
-msgstr ""
+msgstr "ma ei usu sind"
 
 #: r2/controllers/errors.py:114
 msgid "that user is already a moderator"
-msgstr ""
+msgstr "see kasutaja on juba moderaator"
 
 #: r2/controllers/errors.py:115
 msgid "you cannot edit the bid of a live ad"
@@ -626,12 +626,12 @@ msgstr ""
 
 #: r2/controllers/front.py:335
 msgid "no comments (yet)"
-msgstr ""
+msgstr "kommentaare pole (veel)"
 
 #: r2/controllers/front.py:337
 #, python-format
 msgid "all %d comments"
-msgstr ""
+msgstr "kõik %d kommentaari"
 
 #: r2/controllers/front.py:339
 #, python-format
@@ -646,7 +646,7 @@ msgstr ""
 #: r2/controllers/front.py:365
 #, python-format
 msgid "show %d"
-msgstr ""
+msgstr "näita %d"
 
 #: r2/controllers/front.py:381
 msgid "create a reddit"
@@ -698,7 +698,7 @@ msgstr "esita"
 
 #: r2/controllers/front.py:1013
 msgid "rules of reddit"
-msgstr ""
+msgstr "redditi reeglid"
 
 #: r2/controllers/front.py:1022
 msgid ""
@@ -716,7 +716,7 @@ msgstr ""
 
 #: r2/controllers/front.py:1031
 msgid "now go to someone's userpage and give them a present!"
-msgstr ""
+msgstr "nüüd mine kellegi kasutajalehele ja tee neile kingitus!"
 
 #: r2/controllers/front.py:1046 r2/controllers/front.py:1263
 msgid "thanks"
@@ -724,7 +724,7 @@ msgstr ""
 
 #: r2/controllers/front.py:1053
 msgid "gold"
-msgstr ""
+msgstr "kuld"
 
 #: r2/controllers/front.py:1060 r2/templates/login.html:91
 #: r2/templates/loginformwide.html:45
@@ -753,7 +753,7 @@ msgstr "tere tulemast tagasi"
 #: r2/controllers/front.py:1311 r2/controllers/front.py:1330
 #: r2/lib/menus.py:99 r2/templates/gold.html:84
 msgid "reddit gold"
-msgstr ""
+msgstr "redditi kuld"
 
 #: r2/controllers/ipn.py:289
 msgid "nice try."
@@ -761,7 +761,7 @@ msgstr ""
 
 #: r2/controllers/ipn.py:320
 msgid "that user has deleted their account"
-msgstr ""
+msgstr "see kasutaja on enda konto kustutanud"
 
 #: r2/controllers/ipn.py:343
 msgid "the gold has been delivered!"
@@ -811,7 +811,7 @@ msgstr "nüüd on sul küll igav, eh?"
 
 #: r2/controllers/listingcontroller.py:566
 msgid "filter by subreddit"
-msgstr ""
+msgstr "filtreeri alamredditi järgi"
 
 #: r2/controllers/listingcontroller.py:572
 #, python-format
@@ -987,11 +987,11 @@ msgstr ""
 
 #: r2/controllers/validator/validator.py:973
 msgid "the new password"
-msgstr ""
+msgstr "uus salasõna"
 
 #: r2/controllers/validator/validator.py:974
 msgid "the password again (for verification)"
-msgstr ""
+msgstr "salasõna uuesti (kinnitamiseks)"
 
 #: r2/controllers/validator/validator.py:1010
 msgid "a valid, unused, username"
@@ -999,11 +999,11 @@ msgstr ""
 
 #: r2/controllers/validator/validator.py:1055
 msgid "a username"
-msgstr ""
+msgstr "kasutajanimi"
 
 #: r2/controllers/validator/validator.py:1056
 msgid "the user's password"
-msgstr ""
+msgstr "kasutaja salasõna"
 
 #: r2/controllers/validator/validator.py:1064
 #: r2/controllers/validator/validator.py:1111
@@ -1012,7 +1012,7 @@ msgstr ""
 
 #: r2/controllers/validator/validator.py:1112
 msgid "a subreddit"
-msgstr ""
+msgstr "alamreddit"
 
 #: r2/controllers/validator/validator.py:1113
 #: r2/controllers/validator/validator.py:1202
@@ -1021,7 +1021,7 @@ msgstr ""
 
 #: r2/controllers/validator/validator.py:1154
 msgid "the name of an existing user"
-msgstr ""
+msgstr "olemeasoleva kasutaja nimi"
 
 #: r2/controllers/validator/validator.py:1239
 #, python-format
@@ -1082,7 +1082,7 @@ msgstr ""
 #: r2/controllers/validator/validator.py:1763
 #, python-format
 msgid "max length %d characters"
-msgstr ""
+msgstr "maksimumpikkus %d sümbolit"
 
 #: r2/controllers/validator/validator.py:1786
 msgid "credit card numbers should be 13 to 16 digits"
@@ -1191,140 +1191,140 @@ msgstr ""
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:22
 msgid "Reason to create a reddit 1"
-msgstr ""
+msgstr "1. põhjus redditi loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:24
 msgid "Reason to create a reddit 2"
-msgstr ""
+msgstr "2. põhjus redditi loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:26
 msgid "Reason to create a reddit 3"
-msgstr ""
+msgstr "3. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:28
 msgid "Reason to create a reddit 4"
-msgstr ""
+msgstr "4. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:30
 msgid "Reason to create a reddit 5"
-msgstr ""
+msgstr "5. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:32
 msgid "Reason to create a reddit 6"
-msgstr ""
+msgstr "6. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:34
 msgid "Reason to create a reddit 7"
-msgstr ""
+msgstr "7. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:36
 msgid "Reason to create a reddit 8"
-msgstr ""
+msgstr "8. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:38
 msgid "Reason to create a reddit 9"
-msgstr ""
+msgstr "9. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:40
 msgid "Reason to create a reddit 10"
-msgstr ""
+msgstr "10. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:42
 msgid "Reason to create a reddit 11"
-msgstr ""
+msgstr "11. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:44
 msgid "Reason to create a reddit 12"
-msgstr ""
+msgstr "12. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:46
 msgid "Reason to create a reddit 13"
-msgstr ""
+msgstr "13. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:48
 msgid "Reason to create a reddit 14"
-msgstr ""
+msgstr "14. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:50
 msgid "Reason to create a reddit 15"
-msgstr ""
+msgstr "15. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:52
 msgid "Reason to create a reddit 16"
-msgstr ""
+msgstr "16. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:54
 msgid "Reason to create a reddit 17"
-msgstr ""
+msgstr "17. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:56
 msgid "Reason to create a reddit 18"
-msgstr ""
+msgstr "18. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:58
 msgid "Reason to create a reddit 19"
-msgstr ""
+msgstr "19. põhjus reddtiti loomiseks"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:60
 msgid "Reason to create a reddit 20"
-msgstr ""
+msgstr "20. põhjus reddtiti loomiseks"
 
 #: r2/lib/generated_strings.py:61
 msgid "uniques by hour"
@@ -1388,7 +1388,7 @@ msgstr ""
 
 #: r2/lib/jsontemplates.py:335 r2/templates/usertext.html:56
 msgid "[removed]"
-msgstr ""
+msgstr "[eemaldatud]"
 
 #: r2/lib/menus.py:47
 msgid "what's hot"
@@ -1505,7 +1505,7 @@ msgstr "seaded"
 
 #: r2/lib/menus.py:88
 msgid "blog"
-msgstr ""
+msgstr "blogi"
 
 #: r2/lib/menus.py:89 r2/templates/utils.html:457
 msgid "logout"
@@ -1513,7 +1513,7 @@ msgstr "logi välja"
 
 #: r2/lib/menus.py:92
 msgid "contact us"
-msgstr ""
+msgstr "võta meiega ühendust"
 
 #: r2/lib/menus.py:93
 msgid "buttons"
@@ -1529,7 +1529,7 @@ msgstr "lähtekood"
 
 #: r2/lib/menus.py:96
 msgid "mobile"
-msgstr ""
+msgstr "mobiilne"
 
 #: r2/lib/menus.py:97
 msgid "store"
@@ -1537,15 +1537,15 @@ msgstr "pood"
 
 #: r2/lib/menus.py:98
 msgid "advertise"
-msgstr ""
+msgstr "reklaami"
 
 #: r2/lib/menus.py:101
 msgid "team"
-msgstr ""
+msgstr "tiim"
 
 #: r2/lib/menus.py:102
 msgid "rules"
-msgstr ""
+msgstr "reeglid"
 
 #: r2/lib/menus.py:105 r2/templates/promotelinkform.html:325
 msgid "options"
@@ -1685,7 +1685,7 @@ msgstr "minu redditid"
 
 #: r2/lib/menus.py:151
 msgid "help translate"
-msgstr ""
+msgstr "aita tõlkida"
 
 #: r2/lib/menus.py:152 r2/templates/subredditstylesheet.html:97
 msgid "errors"
@@ -1705,7 +1705,7 @@ msgstr "raporteerijad"
 
 #: r2/lib/menus.py:157
 msgid "reported links"
-msgstr ""
+msgstr "raporteeritud lingid"
 
 #: r2/lib/menus.py:158
 msgid "reported authors"
@@ -1762,11 +1762,11 @@ msgstr ""
 
 #: r2/lib/menus.py:174
 msgid "unseen"
-msgstr ""
+msgstr "nägemata"
 
 #: r2/lib/menus.py:175
 msgid "roadblock"
-msgstr ""
+msgstr "teeblokk"
 
 #: r2/lib/menus.py:176
 msgid "analytics"
@@ -1794,11 +1794,11 @@ msgstr ""
 
 #: r2/lib/menus.py:183
 msgid "languages"
-msgstr ""
+msgstr "keeled"
 
 #: r2/lib/menus.py:184 r2/lib/pages/trafficpages.py:207
 msgid "adverts"
-msgstr ""
+msgstr "reklaamid"
 
 #: r2/lib/menus.py:186
 msgid "whitelist"
@@ -2034,7 +2034,7 @@ msgstr ""
 
 #: r2/lib/strings.py:120
 msgid "this subreddit has been banned"
-msgstr ""
+msgstr "see alamreddit on keelatud"
 
 #: r2/lib/strings.py:121
 #, python-format
@@ -2048,7 +2048,7 @@ msgstr ""
 
 #: r2/lib/strings.py:122
 msgid "this subreddit is private"
-msgstr ""
+msgstr "see alamreddit on privaatne"
 
 #: r2/lib/strings.py:123
 msgid ""
@@ -2098,7 +2098,7 @@ msgstr ""
 
 #: r2/lib/strings.py:132
 msgid "Verification failed.  Please try that again"
-msgstr ""
+msgstr "Kinnitamine ebaõnnestus. Palun proovi uuesti"
 
 #: r2/lib/strings.py:133
 msgid ""
@@ -2328,14 +2328,14 @@ msgstr ""
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] "kommentaar"
-msgstr[1] "kommentaari"
+msgstr[1] "kommentaarid"
 
 #: r2/lib/strings.py:255 r2/templates/comment.htmllite:55
 #: r2/templates/linkinfobar.html:47
 msgid "point"
 msgid_plural "points"
 msgstr[0] "punkt"
-msgstr[1] "punkti"
+msgstr[1] "punktid"
 
 #: r2/lib/strings.py:258 r2/models/modaction.py:293
 msgid "link"
@@ -2366,7 +2366,7 @@ msgstr[1] ""
 msgid "reader"
 msgid_plural "readers"
 msgstr[0] "lugeja"
-msgstr[1] "lugejat"
+msgstr[1] "lugejad"
 
 #: r2/lib/strings.py:266
 msgid "subscriber"
@@ -2464,7 +2464,7 @@ msgstr ""
 
 #: r2/lib/system_messages.py:51
 msgid "you are an approved submitter"
-msgstr ""
+msgstr "sa oled heakskiidetud lisaja"
 
 #: r2/lib/system_messages.py:52
 #, python-format
@@ -2530,7 +2530,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:308
 msgid "these subreddits"
-msgstr ""
+msgstr "need alamredditid"
 
 #: r2/lib/pages/pages.py:328
 msgid "Submit a link"
@@ -2546,16 +2546,16 @@ msgstr "moderaatorid"
 
 #: r2/lib/pages/pages.py:373
 msgid "Recently viewed links"
-msgstr ""
+msgstr "Hiljuti vaadatud lingid"
 
 #: r2/lib/pages/pages.py:398
 msgid "turn admin off"
-msgstr ""
+msgstr "lülita admin välja"
 
 #: r2/lib/pages/pages.py:402 r2/lib/pages/pages.py:861
 #: r2/templates/passwordverificationform.html:67
 msgid "turn admin on"
-msgstr ""
+msgstr "lülita admin sisse"
 
 #: r2/lib/pages/pages.py:530
 msgid "FAQ"
@@ -2575,7 +2575,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:546
 msgid "tools"
-msgstr ""
+msgstr "tööriistad"
 
 #: r2/lib/pages/pages.py:553
 msgid "redditgifts"
@@ -2616,7 +2616,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:1268
 msgid "subreddit settings"
-msgstr ""
+msgstr "alamredditi seaded"
 
 #: r2/lib/pages/pages.py:1269
 #, python-format
@@ -2625,7 +2625,7 @@ msgstr "info %(site)s kohta"
 
 #: r2/lib/pages/pages.py:1295
 msgid "search subreddits by name"
-msgstr ""
+msgstr "otsi alamredditeid nime järgi"
 
 #: r2/lib/pages/pages.py:1329
 #, python-format
@@ -2635,7 +2635,7 @@ msgstr ""
 #: r2/lib/pages/pages.py:1398 r2/templates/createsubreddit.html:252
 #: r2/templates/spotlightlisting.html:55
 msgid "what's this?"
-msgstr "mis see on?"
+msgstr "Mis see on?"
 
 #: r2/lib/pages/pages.py:1399
 msgid "trophy case"
@@ -2643,7 +2643,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:1448
 msgid "an unknown amount"
-msgstr ""
+msgstr "tundmatu summa"
 
 #: r2/lib/pages/pages.py:1456
 msgid "less than a day"
@@ -2663,7 +2663,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:1478
 msgid "renew your reddit gold"
-msgstr ""
+msgstr "uuenda enda redditi kulda"
 
 #: r2/lib/pages/pages.py:1481
 msgid "treat yourself to reddit gold"
@@ -2711,7 +2711,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:2762
 msgid "user"
-msgstr ""
+msgstr "kasutaja"
 
 #: r2/lib/pages/pages.py:2762
 msgid "note"
@@ -2719,7 +2719,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:2762
 msgid "friendship"
-msgstr ""
+msgstr "sõprus"
 
 #: r2/lib/pages/pages.py:2768
 msgid "add a friend"
@@ -2731,7 +2731,7 @@ msgstr "sinu sõbrad"
 
 #: r2/lib/pages/pages.py:2800
 msgid "blocked users"
-msgstr ""
+msgstr "blokeeritud kasutajad"
 
 #: r2/lib/pages/pages.py:2816
 msgid "add approved submitter"
@@ -2748,7 +2748,7 @@ msgstr "lisa moderaator"
 
 #: r2/lib/pages/pages.py:2836 r2/models/modaction.py:68
 msgid "invite moderator"
-msgstr ""
+msgstr "kutsu moderaator"
 
 #: r2/lib/pages/pages.py:2837 r2/templates/modlist.html:33
 #, python-format
@@ -2762,7 +2762,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:2845
 msgid "invited"
-msgstr ""
+msgstr "kutsutud"
 
 #: r2/lib/pages/pages.py:2890
 msgid "banned users"
@@ -2939,7 +2939,7 @@ msgstr "muuda"
 
 #: r2/lib/pages/wiki.py:74
 msgid "history"
-msgstr ""
+msgstr "ajalugu"
 
 #: r2/lib/pages/wiki.py:75
 msgid "talk"
@@ -2947,7 +2947,7 @@ msgstr ""
 
 #: r2/lib/pages/wiki.py:77 r2/lib/pages/wiki.py:114
 msgid "settings"
-msgstr ""
+msgstr "seaded"
 
 #: r2/lib/pages/wiki.py:85
 msgid "this wiki is currently disabled, only mods may interact with this wiki"
@@ -2955,7 +2955,7 @@ msgstr ""
 
 #: r2/lib/pages/wiki.py:93
 msgid "this page is empty, edit it to add some content."
-msgstr ""
+msgstr "see leht on tühi, redigeeri seda, et sisu lisada"
 
 #: r2/lib/pages/wiki.py:99
 #, python-format
@@ -3102,7 +3102,7 @@ msgstr "kommentaaril on punkte alla lävendi"
 
 #: r2/models/link.py:982
 msgid "blocked user"
-msgstr ""
+msgstr "blokeeritud kasutaja"
 
 #: r2/models/link.py:1312
 msgid "comment reply"
@@ -3114,11 +3114,11 @@ msgstr ""
 
 #: r2/models/link.py:1341
 msgid "[message from blocked user]"
-msgstr ""
+msgstr "[sõnum blokeeritud kasutajalt]"
 
 #: r2/models/link.py:1342
 msgid "[unblock user to see this message]"
-msgstr ""
+msgstr "[eemalda kasutaja blokeering, et seda sõnumit näha]"
 
 #: r2/models/link.py:1345
 #, python-format
@@ -3227,23 +3227,23 @@ msgstr ""
 
 #: r2/models/modaction.py:62
 msgid "remove post"
-msgstr ""
+msgstr "eemalda postitus"
 
 #: r2/models/modaction.py:63
 msgid "approve post"
-msgstr ""
+msgstr "kiida postitus heaks"
 
 #: r2/models/modaction.py:64
 msgid "remove comment"
-msgstr ""
+msgstr "eemalda kommentaar"
 
 #: r2/models/modaction.py:65
 msgid "approve comment"
-msgstr ""
+msgstr "kiida kommentaar heaks"
 
 #: r2/models/modaction.py:67
 msgid "remove moderator"
-msgstr ""
+msgstr "eemalda moderaator"
 
 #: r2/models/modaction.py:69
 msgid "uninvite moderator"
@@ -3251,7 +3251,7 @@ msgstr ""
 
 #: r2/models/modaction.py:70
 msgid "accept moderator invite"
-msgstr ""
+msgstr "võta vastu moderaatori kutse"
 
 #: r2/models/modaction.py:71
 msgid "add contributor"
@@ -3271,7 +3271,7 @@ msgstr ""
 
 #: r2/models/modaction.py:76
 msgid "mark nsfw"
-msgstr ""
+msgstr "märgi nsfw"
 
 #: r2/models/modaction.py:77
 msgid "ban from wiki"
@@ -3304,7 +3304,7 @@ msgstr "bännitud"
 
 #: r2/models/modaction.py:85
 msgid "wiki banned"
-msgstr ""
+msgstr "wiki bännitud"
 
 #: r2/models/modaction.py:86
 msgid "unbanned from wiki"
@@ -3327,7 +3327,7 @@ msgstr "bänn maha võetud"
 #: r2/templates/printablebuttons.html:150 r2/templates/trophycase.html:47
 #: r2/templates/trophycase.html:67
 msgid "removed"
-msgstr ""
+msgstr "eemaldatud"
 
 #: r2/models/modaction.py:91 r2/models/modaction.py:93
 #: r2/templates/printablebuttons.html:50
@@ -3338,15 +3338,15 @@ msgstr ""
 
 #: r2/models/modaction.py:94
 msgid "added moderator"
-msgstr ""
+msgstr "lisatud moderaator"
 
 #: r2/models/modaction.py:95
 msgid "removed moderator"
-msgstr ""
+msgstr "eemaldatud moderaator"
 
 #: r2/models/modaction.py:96
 msgid "invited moderator"
-msgstr ""
+msgstr "kutsutud moderaator"
 
 #: r2/models/modaction.py:97
 msgid "uninvited moderator"
@@ -3386,7 +3386,7 @@ msgstr ""
 
 #: r2/models/modaction.py:106
 msgid "marked nsfw"
-msgstr ""
+msgstr "märgitud nsfw"
 
 #: r2/models/modaction.py:109
 msgid "unspam"
@@ -3398,7 +3398,7 @@ msgstr ""
 
 #: r2/models/modaction.py:112
 msgid "confirmed spam"
-msgstr ""
+msgstr "kinnitatud spämm"
 
 #: r2/models/modaction.py:113
 msgid "removed not spam"
@@ -3406,7 +3406,7 @@ msgstr ""
 
 #: r2/models/modaction.py:114
 msgid "removed spam"
-msgstr ""
+msgstr "eemaldatud spämm"
 
 #: r2/models/modaction.py:116
 msgid "removed self"
@@ -3453,7 +3453,7 @@ msgstr ""
 
 #: r2/models/modaction.py:127 r2/templates/createsubreddit.html:226
 msgid "domain"
-msgstr ""
+msgstr "domeen"
 
 #: r2/models/modaction.py:128
 msgid "toggle show sidebar from cname"
@@ -3557,7 +3557,7 @@ msgstr ""
 
 #: r2/models/token.py:107
 msgid "My Identity"
-msgstr ""
+msgstr "Minu Identiteet"
 
 #: r2/models/token.py:108
 msgid "Access my reddit username and signup date."
@@ -3616,7 +3616,7 @@ msgstr ""
 
 #: r2/models/token.py:150
 msgid "Private Messages"
-msgstr ""
+msgstr "Privaatsõnumid"
 
 #: r2/models/token.py:151
 msgid "Access my inbox and send private messages to other users."
@@ -3624,7 +3624,7 @@ msgstr ""
 
 #: r2/models/token.py:156
 msgid "Read Content"
-msgstr ""
+msgstr "Lose Sisu"
 
 #: r2/models/token.py:157
 msgid "Access posts and comments through my account."
@@ -3648,7 +3648,7 @@ msgstr ""
 
 #: r2/models/token.py:171
 msgid "Vote"
-msgstr ""
+msgstr "Hääleta"
 
 #: r2/models/token.py:173
 msgid "Submit and change my votes on comments and submissions."
@@ -3694,7 +3694,7 @@ msgstr "kliki ja lohista"
 
 #: r2/templates/bookmarklets.html:43 r2/templates/bookmarklets.html:72
 msgid "to your bookmark bar."
-msgstr ""
+msgstr "enda järjehoidjate ribasse"
 
 #: r2/templates/bookmarklets.html:51
 msgid "in Internet Explorer"
@@ -3773,15 +3773,15 @@ msgstr ""
 
 #: r2/templates/buttondemopanel.html:70
 msgid "put this code on your page:"
-msgstr ""
+msgstr "pane see kood enda lehele:"
 
 #: r2/templates/buttondemopanel.html:74
 msgid "and you'll get something like this:"
-msgstr ""
+msgstr "Ja sa saad midagi taolist:"
 
 #: r2/templates/buttondemopanel.html:79
 msgid "more interactive buttons"
-msgstr ""
+msgstr "rohkem interaktiivseid nuppe"
 
 #: r2/templates/buttondemopanel.html:86
 msgid "interactive button advanced settings"
@@ -3789,7 +3789,7 @@ msgstr ""
 
 #: r2/templates/buttondemopanel.html:90
 msgid "specify a url"
-msgstr ""
+msgstr "täpsusta url"
 
 #: r2/templates/buttondemopanel.html:91
 msgid ""
@@ -3822,7 +3822,7 @@ msgstr ""
 
 #: r2/templates/buttondemopanel.html:118
 msgid "use this code:"
-msgstr ""
+msgstr "kasuta seda koodi:"
 
 #: r2/templates/buttondemopanel.html:128
 msgid "more badges and buttons"
@@ -3830,11 +3830,11 @@ msgstr ""
 
 #: r2/templates/buttondemopanel.html:159
 msgid "view code"
-msgstr ""
+msgstr "vaata koodi"
 
 #: r2/templates/buttondemopanel.html:160
 msgid "hide code"
-msgstr ""
+msgstr "peida kood"
 
 #: r2/templates/captcha.html:49
 msgid "(sorry)"
@@ -3937,7 +3937,7 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:132
 msgid "archived"
-msgstr ""
+msgstr "arhiveeritud"
 
 #: r2/templates/createsubreddit.html:133
 msgid "anyone can view, but submissions are no longer accepted"
@@ -3953,11 +3953,11 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:145
 msgid "any link type is allowed"
-msgstr ""
+msgstr "igat tüüpi link on lubatud"
 
 #: r2/templates/createsubreddit.html:147
 msgid "links only"
-msgstr ""
+msgstr "ainult lingid"
 
 #: r2/templates/createsubreddit.html:148
 msgid "only links to external sites are allowed"
@@ -4107,7 +4107,7 @@ msgstr "saada"
 
 #: r2/templates/feedbackblurb.html:70
 msgid "send reddit feedback"
-msgstr ""
+msgstr "saada redditile tagasisidet"
 
 #: r2/templates/flairlist.html:26
 msgid "jump to user (or add):"
@@ -4119,7 +4119,7 @@ msgstr ""
 
 #: r2/templates/flairlist.html:38
 msgid "back to the beginning"
-msgstr ""
+msgstr "tagasi algusesse"
 
 #: r2/templates/flairlist.html:46 r2/templates/flairtemplatelist.html:37
 msgid "flair text"
@@ -4173,7 +4173,7 @@ msgstr ""
 
 #: r2/templates/flairpane.html:66 r2/templates/flairpane.html:79
 msgid "left"
-msgstr ""
+msgstr "vasak"
 
 #: r2/templates/flairpane.html:67
 msgid "position flair to the left of the username"
@@ -4181,7 +4181,7 @@ msgstr ""
 
 #: r2/templates/flairpane.html:69 r2/templates/flairpane.html:82
 msgid "right"
-msgstr ""
+msgstr "parem"
 
 #: r2/templates/flairpane.html:70
 msgid "position flair to the right of the username"
