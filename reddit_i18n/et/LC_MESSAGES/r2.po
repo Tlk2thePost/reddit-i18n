@@ -45,7 +45,7 @@ msgstr ""
 
 #: r2/controllers/api.py:446
 msgid "(optional) the user's email address"
-msgstr ""
+msgstr "(valikuline) kasutaja meiliaadress"
 
 #: r2/controllers/api.py:691 r2/controllers/api.py:1299
 #: r2/controllers/api.py:1479 r2/controllers/api.py:1674
@@ -61,14 +61,14 @@ msgstr "salvestatud"
 
 #: r2/controllers/api.py:710
 msgid "the user's current password"
-msgstr ""
+msgstr "kasutaja preagune salasõna"
 
 #: r2/controllers/api.py:725
 msgid "all other sessions have been logged out"
-msgstr ""
+msgstr "kõik teised sessioonid on välja logitud"
 
 #: r2/controllers/api.py:773
-msgid "you should be getting a verification email shortly."
+msgid "you should be getting a verification email shortly
 msgstr ""
 
 #: r2/controllers/api.py:775 r2/controllers/api.py:785
@@ -89,19 +89,19 @@ msgstr "vastatud"
 
 #: r2/controllers/api.py:1161
 msgid "shared"
-msgstr ""
+msgstr "jagatud"
 
 #: r2/controllers/api.py:1164
 msgid "your link has been shared."
-msgstr ""
+msgstr "sinu link on jagatud"
 
 #: r2/controllers/api.py:1281
 msgid "validation errors"
-msgstr ""
+msgstr "kinnitamise vead"
 
 #: r2/controllers/api.py:1308
 msgid "conflict error"
-msgstr ""
+msgstr "konflikti viga"
 
 #: r2/controllers/api.py:1309
 msgid "There was a conflict while editing the stylesheet"
@@ -132,15 +132,15 @@ msgstr ""
 
 #: r2/controllers/api.py:1581
 msgid "Description was not saved"
-msgstr ""
+msgstr "kirjeldust ei salvestatud"
 
 #: r2/controllers/api.py:2107
 msgid "an email will be sent to that account's address shortly"
-msgstr ""
+msgstr "selle konto aadressile saadetakse peatselt meil"
 
 #: r2/controllers/api.py:2109
 msgid "try again tomorrow"
-msgstr ""
+msgstr "proovi homme uuesti"
 
 #: r2/controllers/api.py:2364 r2/controllers/api.py:2579
 msgid "invalid css class"
@@ -172,23 +172,23 @@ msgstr ""
 
 #: r2/controllers/api.py:3037
 msgid "application updated"
-msgstr ""
+msgstr "rakendus uuendatud"
 
 #: r2/controllers/api.py:3049
 msgid "application created"
-msgstr ""
+msgstr "rakendus loodud"
 
 #: r2/controllers/api.py:3076
 msgid "developer added"
-msgstr ""
+msgstr "arendaja lisatud"
 
 #: r2/controllers/api.py:3109
 msgid "an icon (72x72)"
-msgstr ""
+msgstr "ikoon (72x72)"
 
 #: r2/controllers/api_docs.py:40
 msgid "account"
-msgstr ""
+msgstr "konto"
 
 #: r2/controllers/api_docs.py:43 r2/lib/menus.py:106
 msgid "apps"
@@ -200,11 +200,11 @@ msgstr ""
 
 #: r2/controllers/api_docs.py:49
 msgid "links & comments"
-msgstr ""
+msgstr "lingid ja kommentaarid"
 
 #: r2/controllers/api_docs.py:52
 msgid "private messages"
-msgstr ""
+msgstr "privaatsõnumid"
 
 #: r2/controllers/api_docs.py:55
 msgid "moderation"
@@ -228,7 +228,7 @@ msgstr "alamredditid"
 
 #: r2/controllers/api_docs.py:70
 msgid "users"
-msgstr ""
+msgstr "kasutajad"
 
 #: r2/controllers/api_docs.py:192
 msgid "api documentation"
@@ -256,7 +256,7 @@ msgstr ""
 
 #: r2/controllers/embed.py:68
 msgid "just read this first."
-msgstr ""
+msgstr "lihtsalt loe kõigepealt seda"
 
 #: r2/controllers/embed.py:84 r2/lib/menus.py:87 r2/lib/pages/pages.py:535
 #: r2/templates/frametoolbar.html:108
@@ -270,7 +270,7 @@ msgstr "keelatud  ( %(domain)s )"
 
 #: r2/controllers/error.py:122
 msgid "you are not allowed to do that"
-msgstr ""
+msgstr "sul ei ole lubatud seda teha"
 
 #: r2/controllers/error.py:130
 msgid "page not found"
@@ -314,11 +314,11 @@ msgstr "see kasutajanimi on juba kasutusel"
 
 #: r2/controllers/errors.py:38
 msgid "that username is taken by a deleted account"
-msgstr ""
+msgstr "selle kasutajanime on juba võtnud kustutatud kasutaja"
 
 #: r2/controllers/errors.py:39
 msgid "you can't send to a user that you have blocked"
-msgstr ""
+msgstr "sa ei saa saata kasutajale kelle sa oled blokeerinud"
 
 #: r2/controllers/errors.py:40
 msgid "id not specified"
@@ -334,11 +334,11 @@ msgstr "sa ei saa nii teha"
 
 #: r2/controllers/errors.py:43
 msgid "you are not logged in as that user"
-msgstr ""
+msgstr "sa ei ole selle kasutajana sisse logitud"
 
 #: r2/controllers/errors.py:44
 msgid "the link you are commenting on has been deleted"
-msgstr ""
+msgstr "link, millel sa kommenteerid, on kustutatud"
 
 #: r2/controllers/errors.py:45
 msgid "that comment has been deleted"
@@ -346,11 +346,11 @@ msgstr "kommentaar kustutati"
 
 #: r2/controllers/errors.py:46
 msgid "that element has been deleted"
-msgstr ""
+msgstr "see element on kustutatud"
 
 #: r2/controllers/errors.py:47
 msgid "that password is unacceptable"
-msgstr ""
+msgstr "see salasõna ei ole vastuvõetav"
 
 #: r2/controllers/errors.py:48
 msgid "invalid password"
@@ -410,11 +410,11 @@ msgstr "see link on redditis juba olemas"
 
 #: r2/controllers/errors.py:62
 msgid "that reddit already exists"
-msgstr ""
+msgstr "see reddit on juba olemas"
 
 #: r2/controllers/errors.py:63
 msgid "that reddit doesn't exist"
-msgstr ""
+msgstr "seda redditit pole olemas"
 
 #: r2/controllers/errors.py:64
 msgid "you aren't allowed to post there."
@@ -422,7 +422,7 @@ msgstr "sul pole lubatud siia postitada"
 
 #: r2/controllers/errors.py:65
 msgid "you must specify a subreddit"
-msgstr ""
+msgstr "sa pead alamredditi täpsustama"
 
 #: r2/controllers/errors.py:66
 msgid "that name isn't going to work"
@@ -431,15 +431,15 @@ msgstr "see nimi ei tööta"
 #: r2/controllers/errors.py:67
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
-msgstr ""
+msgstr "sa teed seda liiga palju. proovi uuesti %(time) sekundi pärast."
 
 #: r2/controllers/errors.py:68 r2/lib/strings.py:137
 msgid "You've submitted too many links recently. Please try again in an hour."
-msgstr ""
+msgstr "Sa oled hiljuti palju linke postitanud. Palun proovi tunni aja pärast uuesti"
 
 #: r2/controllers/errors.py:69
 msgid "you are doing that too much. try again later."
-msgstr ""
+msgstr "sa teed seda liiga palju. proovi hiljem uuesti"
 
 #: r2/controllers/errors.py:70
 msgid "your session has expired"
